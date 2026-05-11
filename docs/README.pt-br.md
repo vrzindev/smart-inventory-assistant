@@ -11,7 +11,7 @@
 
 **[English](../README.md)** • **Português Brasileiro**
 
-> Sistema de gerenciamento de inventário com IA conversacional construído com Spring AI e Ollama
+> Sistema de gerenciamento de inventário Java 17 + Spring Boot com IA conversacional usando Spring AI e Ollama
 
 </div>
 
@@ -41,6 +41,17 @@
 Em vez de navegar por dropdowns e formulários complexos, usuários interagem com o gerenciamento de inventário através de **conversas em linguagem natural**—pedindo para encontrar produtos com preço abaixo de um limite, adicionar estoque em armazéns, ou atualizar contagens de inventário em português simples.
 
 Este projeto explora a integração prática de LLMs em sistemas de negócio existentes sem exigir rewrites arquiteturais, provando que UIs aprimoradas por IA podem coexistir perfeitamente com código limpo e manutenível.
+
+### Implementação focada em Java
+
+Este repositório foi organizado de forma intencional como um projeto **Java nativo com Maven multi-módulo**:
+
+- **Java 17+** em toda a aplicação
+- Serviços **Spring Boot** e ferramentas **Spring AI** escritos em Java
+- Build **Maven multi-módulo** para separação clara de responsabilidades
+- Código-fonte em `src/main/java` e `src/test/java` nos módulos principais
+
+Essa estrutura ajuda o GitHub a reconhecer o repositório principalmente como **Java**, mantendo os scripts de suporte e os assets de Docker em segundo plano.
 
 ---
 

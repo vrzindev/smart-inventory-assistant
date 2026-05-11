@@ -11,7 +11,7 @@
 
 **English** • **[Português Brasileiro](./docs/README.pt-br.md)**
 
-> Conversational AI-powered inventory management system built with Spring AI and Ollama
+> Java 17 + Spring Boot inventory management system powered by Spring AI and Ollama
 
 </div>
 
@@ -41,6 +41,17 @@
 Instead of navigating dropdowns and complex forms, users interact with inventory management through **natural language conversations**—asking to find products under a price point, add stock to warehouses, or update inventory counts in plain English.
 
 This project explores the practical integration of LLMs into existing business systems without requiring architectural rewrites, proving that AI-enhanced UIs can coexist seamlessly with clean, maintainable code.
+
+### Java-first implementation
+
+This repository is intentionally structured as a **Java-native, Maven multi-module project**:
+
+- **Java 17+** throughout the application
+- **Spring Boot** services and **Spring AI** tooling in Java
+- **Maven multi-module** build for clean separation of concerns
+- Source code under `src/main/java` and `src/test/java` in the main modules
+
+That structure helps GitHub recognize the repository primarily as **Java** while keeping the supporting scripts and Docker assets lightweight.
 
 ---
 

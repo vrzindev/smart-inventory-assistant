@@ -1,0 +1,9 @@
+# Normalize line endings across platforms
+* text=auto eol=lf
+
+# Keep documentation out of language statistics
+docs/** linguist-documentation=true
+*.md linguist-documentation=true
+
+# Treat helper shell scripts as generated support files
+*.sh linguist-generated=true
